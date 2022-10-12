@@ -1,0 +1,505 @@
+/*  колір основного тексту тексту #757575 */
+/* другорядний  колір заголовків  #212121 */
+/* білий колір фону#F5F5F5 */
+/* чорний колір фону #2F303A */
+/* сірий колір фону нижнього блоку  #F5F4FA*/
+/* колір акценту #2196F3  */
+/* білий колір основного заголовку #FFFFFF */
+/* основний колір адреси у футері rgba(255, 255, 255, 0.6);
+*/
+/* general style */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f5f5;
+  color: #757575;
+}
+a {
+  text-decoration: none;
+}
+
+/* верхній блок:логотип  */
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.first-part {
+  color: #2196f3;
+}
+.last-part {
+  color: #000;
+}
+/*  */
+
+.link {
+  position: absolute;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+  color: #188ce1;
+}
+/*посилання  */
+.header-nav-a {
+  width: 45px;
+  height: 16px;
+  left: 453px;
+  color: #2196f3;
+}
+.header-nav-a :hover,
+.header-nav-a :focus {
+  color: #2196f3;
+  color: #188ce1;
+}
+
+.header-nav-b {
+  width: 72px;
+  height: 16px;
+  left: 548px;
+  color: #212121;
+}
+.header-nav-c {
+  width: 64px;
+  height: 16px;
+  left: 670px;
+  color: #212121;
+}
+/* телефон */
+.header-tel-link {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.header-nav-link link:focus .header-nav-link link:hover {
+  color: #2196f3;
+  color: #757575;
+}
+.mailto {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+.mailto:hover,
+.mailto:focus {
+  color: #188ce1;
+  color: #2196f3;
+}
+
+/* cірий фон */
+.business {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background-color: #2f303a;
+}
+/*" ефективні рішення для вашого бізнесу" */
+.business-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+/* кнопка на сірому фоні */
+.header-button {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.header-button:hover {
+  color: #188ce1;
+}
+.header-button:focus {
+  color: #2196f3;
+}
+/* всі заголовки */
+.section-title {
+  color: #212121;
+}
+/* загальна секія для заголовків*/
+.title-befor {
+  position: absolute;
+  width: 270px;
+  height: 16px;
+
+  top: 774px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/* загальна секція для тексту під заголовками */
+.title-befor-li {
+  position: absolute;
+  width: 270px;
+
+  top: 800px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*заголовок(увага)  */
+.work-word {
+  left: 215px;
+}
+/* текст  */
+.work-text {
+  height: 72px;
+  left: 215px;
+
+  line-height: calc(24 / 14);
+}
+/* заголовок(пунктуальність) */
+.work-word-h {
+  left: 515px;
+}
+/* текст  */
+.work-text-p {
+  height: 48px;
+  left: 515px;
+
+  line-height: calc(24 / 16);
+}
+/*заголовок(планування)  */
+.work-word-h-a {
+  left: 815px;
+}
+/* текст */
+.work-text-p-a {
+  height: 48px;
+  left: 815px;
+
+  line-height: calc(24 / 16);
+}
+/*заголовок (сучасні технології) */
+.work-word-h-b {
+  left: 1115px;
+}
+/* текст  */
+.work-text-p-b {
+  height: 72px;
+  left: 1115px;
+
+  line-height: calc(24 / 14);
+}
+/* заголовок галереї */
+.photo-title {
+  position: absolute;
+  width: 366px;
+  height: 42px;
+  left: 617px;
+  top: 966px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* фото галерея 1. 2. 3. */
+.gallery {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+
+  top: 1058px;
+}
+.photo-a {
+  left: 215px;
+
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+.photo-b {
+  left: 615px;
+
+  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+.photo-c {
+  left: 1015px;
+
+  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+/* заголовок(наша команда) */
+.team-title {
+  position: absolute;
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1540px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/* загальний блок hero */
+.person {
+  position: absolute;
+  width: 270px;
+  height: 260px;
+
+  top: 1632px;
+
+  border-radius: 0px;
+}
+.team-hero-a {
+  left: 215px;
+
+  background: url(4853.jpg);
+}
+/* секція ім"я героя */
+.name {
+  position: absolute;
+
+  top: 1922px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/*загальна секція назва професії  */
+.proffesion {
+  position: absolute;
+
+  top: 1951px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.team-title-a {
+  width: 129px;
+  height: 19px;
+  left: 286px;
+}
+.position-a {
+  width: 130px;
+  height: 19px;
+  left: 285px;
+}
+/* другий герой 2*/
+.team-hero-b {
+  left: 515px;
+
+  background: url(5844.jpg);
+}
+.team-title-b {
+  width: 104px;
+  height: 19px;
+  left: 598px;
+}
+.position-b {
+  width: 147px;
+  height: 19px;
+  left: 577px;
+}
+/* hero 3 */
+.team-hero-c {
+  left: 815px;
+
+  background: url(16166.jpg);
+}
+.team-title-c {
+  width: 130px;
+  height: 19px;
+  left: 885px;
+}
+.position-c {
+  width: 76px;
+  height: 19px;
+  left: 912px;
+}
+/* hero 4 */
+.team-hero-d {
+  left: 1115px;
+
+  background: url(2968.jpg);
+}
+.team-title-d {
+  width: 145px;
+  height: 19px;
+  left: 1178px;
+}
+.position-d {
+  width: 87px;
+  height: 19px;
+  left: 1207px;
+}
+/* адреса у футері  */
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+
+  background: #2f303a;
+}
+.address link {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+.address-nav-link address link {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2205px;
+
+  color: #ffffff;
+}
+
+.address-nav-link address link:focus-visible {
+  color: #ffffff;
+}
+.address-nav-link address link:hover {
+  color: #2196f3;
+}
+.address-mail-link address link {
+  position: absolute;
+  width: 231px;
+  height: 24px;
+  left: 215px;
+  top: 2235px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-tel-link address link {
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2265px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+/* logo2 */
+.web bottom {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2154px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.contacts-title :focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-title:hover {
+  color: #2196f3;
+}
